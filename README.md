@@ -79,6 +79,10 @@ nika graph my.nika.yaml       # the DAG, from your terminal
 ```
 
 <p align="center">
+  <sub>⭐ If this saved you time, a star helps other people find it.</sub>
+</p>
+
+<p align="center">
   <sub>Want AI-workflow receipts in your CI too? See <a href="https://github.com/supernovae-st/nika-actions-starter">nika-actions-starter</a>.<br>
   Docs: <a href="https://docs.nika.sh">docs.nika.sh</a> · Engine (AGPL-3.0): <a href="https://github.com/supernovae-st/nika">nika</a></sub>
 </p>
