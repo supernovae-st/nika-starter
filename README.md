@@ -5,8 +5,10 @@ A working setup in about a minute: one proven workflow, editor wiring, agent
 instructions, and CI that re-checks every workflow on every push.</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/supernovae-st/nika/main/media/gifs/chat-to-workflow.optimized.gif" alt="A repeated chat prompt becomes a workflow file; nika check audits it, then a real local run on Ollama writes typed output" width="820">
+  <img src="https://raw.githubusercontent.com/supernovae-st/nika/main/media/gifs/full-loop.optimized.gif" alt="The whole loop against the real binary: nika check catches two typos with did-you-mean fixes, the renames applied, the audit passes, the run executes offline, and nika trace verify confirms the printed chain head" width="820">
 </p>
+
+<p align="center"><em>check catches it · the fix is named · the run is live · the trace is the receipt</em></p>
 
 ## Use it
 
