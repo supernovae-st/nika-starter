@@ -1,0 +1,19 @@
+# Every push re-proves the workflows in this repo: nika check, statically,
+# zero secrets, no untrusted input touches a shell (no run: steps at all).
+# Broken DAG = red build, before any token is ever spent.
+name: workflows proven
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions: {}
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: supernovae-st/nika-action@v1
+        with:
+          workflow: daily-brief.nika.yaml
+          mode: check
+          comment: 'false'
