@@ -36,7 +36,7 @@ You get `brief.md`: the top Hacker News stories, briefed by a local model, with
 a hash-chained trace in `.nika/traces/`. Verify it:
 
 ```bash
-nika trace verify .nika/traces/*.ndjson
+nika trace verify   # checks the latest run's hash chain
 ```
 
 ## The workflow, drawn by nika itself
