@@ -88,3 +88,8 @@ nika graph my.nika.yaml       # the DAG, from your terminal
   <sub>Want AI-workflow receipts in your CI too? See <a href="https://github.com/supernovae-st/nika-actions-starter">nika-actions-starter</a>.<br>
   Docs: <a href="https://docs.nika.sh">docs.nika.sh</a> · Engine (AGPL-3.0): <a href="https://github.com/supernovae-st/nika">nika</a></sub>
 </p>
+
+---
+
+Nika is independent open source — if this template earns its keep, a ⭐ on
+[the engine](https://github.com/supernovae-st/nika) is how the next person finds it.
