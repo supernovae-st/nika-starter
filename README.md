@@ -91,5 +91,5 @@ nika graph my.nika.yaml       # the DAG, from your terminal
 
 ---
 
-Nika is independent open source — if this template earns its keep, a ⭐ on
+Nika is independent open source · if this template earns its keep, a ⭐ on
 [the engine](https://github.com/supernovae-st/nika) is how the next person finds it.
